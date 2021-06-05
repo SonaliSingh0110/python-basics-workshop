@@ -1,0 +1,18 @@
+#ex-01
+print("This is a pythone basics workshop")
+print("Iam SOnali")
+# wap to find sum of 3 num
+p=int(input("enter1 "))
+q=int(input("enter2 "))
+r=int(input("enter3 "))
+sum=p+q+r
+avg=sum/3
+print(sum)
+print(avg)
+#  wapp to read fron user and find area and curcumference of circle
+pi=3.141
+rad=float(input("enter the radius"))
+area= pi*rad**2
+circum=2*pi*rad
+print(area)
+print(circum)
