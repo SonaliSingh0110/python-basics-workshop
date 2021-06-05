@@ -1,0 +1,53 @@
+# graphical proggraming
+from tkinter import*
+
+root=Tk()
+root.title("app by Sonali")
+root.geometry("500x200")
+f=("Times New Roman",30,"bold")
+l1=Label(root,text="Good Morning",font=f,fg="blue")
+l1.pack()
+root.mainloop()
+
+from tkinter import *
+from tkinter.messagebox import *
+root=Tk()
+root.title("2nd app by Sonali")
+root.geometry("500x200")
+
+def welcome():
+  showinfo("welcome","Good Morning")
+
+f=("Times New Roman",20,"bold")
+b1=Button (root,text="click me",font=f,command=welcome)
+b1.pack(pady=50)
+
+root.mainloop()
+
+# calculator
+from tkinter import *
+from tkinter.messagebox import *
+
+root=Tk()
+root.title("square calci by Sonali")
+root.geometry("400x200")
+
+def sqr():
+  num=float(e1.get())
+
+  res=num**2
+  showinfo("results= ",res)
+f=("Arial",20,"bold")
+l1=Label(root,text="enter number",font=f)
+l1.pack()
+e1=Entry(root,bd=4,font=f)
+e1.pack()
+b1= Button(root,text="find square",font=f,command=sqr)
+b1.pack()
+
+
+root.mainloop()
+
+
+
+
