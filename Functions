@@ -1,0 +1,26 @@
+# function
+def welcome():
+      print("good morning")
+      print("this is lec 01")
+welcome()
+# ( calling the function is imp or it won't print)
+
+# function with parameters
+def compute(n1,n2):
+  res=n1+n2
+  print(res)
+n1=int(input('enter no.1 '))
+n2=int(input("enter no.2  ")) 
+compute(n1,n2)  
+
+# wapp to find area and circumferrence
+pi=3.1415
+def area(rad):
+  res=pi*rad**2
+  print(res)
+def circum(rad):
+  res=pi*rad 
+  print(res)
+rad=int(input("enter the radius"))
+area(rad)
+circum(rad)
